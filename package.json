@@ -1,0 +1,20 @@
+{
+  "name": "wikiExplore",
+  "version": "1.0.0",
+  "main": "src.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "cheerio": "^1.0.0-rc.10",
+    "eslint": "^7.32.0",
+    "isomorphic-fetch": "^3.0.0",
+    "request": "^2.88.2",
+    "sync-request": "^6.1.0"
+  },
+  "description": ""
+}
