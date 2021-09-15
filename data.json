@@ -1,0 +1,222 @@
+{
+  "name": "country",
+  "children": [
+      {
+          "name": "Rural_area",
+          "children": [
+              {
+                  "name": "Barossa_Valley",
+                  "children": [],
+                  "id": "country.Rural_area.Barossa_Valley"
+              },
+              {
+                  "name": "South_Australia",
+                  "children": [],
+                  "id": "country.Rural_area.South_Australia"
+              },
+              {
+                  "name": "Vineyard",
+                  "children": [],
+                  "id": "country.Rural_area.Vineyard"
+              },
+              {
+                  "name": "Rice",
+                  "children": [],
+                  "id": "country.Rural_area.Rice"
+              },
+              {
+                  "name": "Terrace_(agriculture)",
+                  "children": [],
+                  "id": "country.Rural_area.Terrace_(agriculture)"
+              },
+              {
+                  "name": "Lappeenranta",
+                  "children": [],
+                  "id": "country.Rural_area.Lappeenranta"
+              }
+          ],
+          "id": "country.Rural_area"
+      },
+      {
+          "name": "County",
+          "children": [
+              {
+                  "name": "Country",
+                  "children": [],
+                  "id": "country.County.Country"
+              },
+              {
+                  "name": "Counties_of_Estonia",
+                  "children": [],
+                  "id": "country.County.Counties_of_Estonia"
+              },
+              {
+                  "name": "Region",
+                  "children": [],
+                  "id": "country.County.Region"
+              },
+              {
+                  "name": "Old_French",
+                  "children": [],
+                  "id": "country.County.Old_French"
+              },
+              {
+                  "name": "Count",
+                  "children": [],
+                  "id": "country.County.Count"
+              },
+              {
+                  "name": "Earl",
+                  "children": [],
+                  "id": "country.County.Earl"
+              }
+          ],
+          "id": "country.County"
+      },
+      {
+          "name": "Territory",
+          "children": [
+              {
+                  "name": "Military_reserve_force",
+                  "children": [],
+                  "id": "country.Territory.Military_reserve_force"
+              },
+              {
+                  "name": "Northern_Europe",
+                  "children": [],
+                  "id": "country.Territory.Northern_Europe"
+              },
+              {
+                  "name": "Saana",
+                  "children": [],
+                  "id": "country.Territory.Saana"
+              },
+              {
+                  "name": "Lapland_(Finland)",
+                  "children": [],
+                  "id": "country.Territory.Lapland_(Finland)"
+              },
+              {
+                  "name": "Administrative_division",
+                  "children": [],
+                  "id": "country.Territory.Administrative_division"
+              },
+              {
+                  "name": "Jurisdiction",
+                  "children": [],
+                  "id": "country.Territory.Jurisdiction"
+              }
+          ],
+          "id": "country.Territory"
+      },
+      {
+          "name": "Political_entity",
+          "children": [
+              {
+                  "name": "Collective_identity",
+                  "children": [],
+                  "id": "country.Political_entity.Collective_identity"
+              },
+              {
+                  "name": "Institutionalisation",
+                  "children": [],
+                  "id": "country.Political_entity.Institutionalisation"
+              },
+              {
+                  "name": "Social_relation",
+                  "children": [],
+                  "id": "country.Political_entity.Social_relation"
+              },
+              {
+                  "name": "Leviathan_(Hobbes_book)",
+                  "children": [],
+                  "id": "country.Political_entity.Leviathan_(Hobbes_book)"
+              },
+              {
+                  "name": "Geopolitics",
+                  "children": [],
+                  "id": "country.Political_entity.Geopolitics"
+              },
+              {
+                  "name": "State_(polity)",
+                  "children": [],
+                  "id": "country.Political_entity.State_(polity)"
+              }
+          ],
+          "id": "country.Political_entity"
+      },
+      {
+          "name": "Nation",
+          "children": [
+              {
+                  "name": "State_(polity)",
+                  "children": [],
+                  "id": "country.Nation.State_(polity)"
+              },
+              {
+                  "name": "Nation_state",
+                  "children": [],
+                  "id": "country.Nation.Nation_state"
+              },
+              {
+                  "name": "Country",
+                  "children": [],
+                  "id": "country.Nation.Country"
+              },
+              {
+                  "name": "Community",
+                  "children": [],
+                  "id": "country.Nation.Community"
+              },
+              {
+                  "name": "Language",
+                  "children": [],
+                  "id": "country.Nation.Language"
+              },
+              {
+                  "name": "Ethnicity",
+                  "children": [],
+                  "id": "country.Nation.Ethnicity"
+              }
+          ],
+          "id": "country.Nation"
+      },
+      {
+          "name": "Birth",
+          "children": [
+              {
+                  "name": "Childbirth",
+                  "children": [],
+                  "id": "country.Birth.Childbirth"
+              },
+              {
+                  "name": "Parturition_(Star_Trek:_Voyager)",
+                  "children": [],
+                  "id": "country.Birth.Parturition_(Star_Trek:_Voyager)"
+              },
+              {
+                  "name": "Lambing",
+                  "children": [],
+                  "id": "country.Birth.Lambing"
+              },
+              {
+                  "name": "Offspring",
+                  "children": [],
+                  "id": "country.Birth.Offspring"
+              },
+              {
+                  "name": "Uterus",
+                  "children": [],
+                  "id": "country.Birth.Uterus"
+              },
+              {
+                  "name": "Precocial",
+                  "children": [],
+                  "id": "country.Birth.Precocial"
+              }
+          ],
+          "id": "country.Birth"
+      }
+  ],
+  "id": "country"
+}
