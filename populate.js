@@ -2,6 +2,7 @@ const fetch = require("isomorphic-fetch");
 const cheerio = require('cheerio');
 const LinkedList = require('./structs/queue');
 const GeneralTree = require('./structs/GeneralTree');
+const show = require("./render");
 
 
 const wikipedia = 'https://cors-anywhere.herokuapp.com/https://en.wikipedia.org/wiki/';
@@ -66,6 +67,7 @@ async function scrapeWiki(start, nChildren, times, links, tree, currRecursions=0
         return original;
     } else {
         alert('Error, page does not exist');
+        
         return null;
     }
     
