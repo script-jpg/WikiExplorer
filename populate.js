@@ -16,7 +16,13 @@ async function populate(start, nChildren, nRecursions) {
     let links = new LinkedList();
     let tree = new GeneralTree(start);
     links.enqueue(tree);
-    tree = await scrapeWiki(start, nChildren, times, links, tree);
+    try {
+        tree = await scrapeWiki(start, nChildren, times, links, tree);
+    } catch {
+        alert("Error, page could not be loaded.");
+        tree=null;
+    }
+    
     return tree;
 }
 
@@ -66,7 +72,6 @@ async function scrapeWiki(start, nChildren, times, links, tree, currRecursions=0
         return original;
     } else {
         alert('Error, page does not exist');
-        
         return null;
     }
     
