@@ -4,8 +4,7 @@ const LinkedList = require('./structs/queue');
 const GeneralTree = require('./structs/GeneralTree');
 const show = require("./render");
 
-
-const wikipedia = 'https://cors-anywhere.herokuapp.com/https://en.wikipedia.org/wiki/';
+const wikipedia = 'https://api.allorigins.win/raw?url=https://en.wikipedia.org/wiki/';
 
 async function populate(start, nChildren, nRecursions) {
     let times = 0;
