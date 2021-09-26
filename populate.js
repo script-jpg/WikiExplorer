@@ -4,7 +4,7 @@ const LinkedList = require('./structs/queue');
 const GeneralTree = require('./structs/GeneralTree');
 const show = require("./render");
 
-const wikipedia = 'https://thingproxy.freeboard.io/fetch/https://en.wikipedia.org/wiki/';
+const wikipedia = 'https://en.wikipedia.org/wiki/';
 
 async function populate(start, nChildren, nRecursions) {
     let times = 0;
@@ -28,7 +28,7 @@ async function populate(start, nChildren, nRecursions) {
 
 async function scrapeWiki(start, nChildren, times, links, tree, currRecursions=0) {
     let original = tree;
-    let response = await fetch(`${wikipedia}${start}`);
+    let response = await fetch('https://calm-fjord-84983.herokuapp.com/pipe/'+wikipedia+start);
     console.log(response);
     if (response.ok == true) {
         let html = await response.text();
@@ -64,7 +64,7 @@ async function scrapeWiki(start, nChildren, times, links, tree, currRecursions=0
             links.dequeue();
             start = links.getHead().getName();
             tree = links.getHead();
-            response = await fetch(`${wikipedia}${start}`);
+            response = await fetch('https://calm-fjord-84983.herokuapp.com/pipe/'+wikipedia+start);
             html = await response.text();
             currRecursions++;
         }
