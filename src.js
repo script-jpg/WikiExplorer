@@ -1,11 +1,17 @@
 
 const JSONdata = require('./data.json');
 const show = require('./render.js')
+const fetch = require("isomorphic-fetch");
 
+async function start() {
+  let response = await fetch('https://calm-fjord-84983.herokuapp.com/pipe/');
+  console.log(response);
+}
 
-
+start();
 
 show.render(JSONdata);
+
 
 const myForm = document.getElementById("form");
   myForm.addEventListener(("submit"), (e) => {
